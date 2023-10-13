@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Formulário que envia o nome do usuário para o código PHP -->
+  <form action="config.php" method="get">
+    <label for="name">Digite o nome do usuário:</label>
+    <input type="text" id="name" name="name" required>
+    <input type="submit" value="Buscar">
+  </form>
+
+  <!-- Tabela que mostra os dados do usuário -->
+  <table>
+    <tr>
+      <td>Nome</td>
+      <td>Email</td>
+      <td>Senha</td>
+    </tr>
+  </table>
+</body>
+
+</html>
